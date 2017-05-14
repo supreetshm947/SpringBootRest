@@ -44,19 +44,7 @@ public class DiscountController {
 		}
 		return cust.getEligibleDiscounts();
 	}
-	/*
-	@RequestMapping(method=RequestMethod.GET, path="/discounts")
-	public List<Discount> getDiscountByUserandProductId(@PathVariable("user") String user, )
-	throws NoDiscountFoundException, UserNotFoundException{
-		CustomerResource cust = verifyCustomer(user);
-		for(PurchasedProduct p : cust.getProducts()){
-			if(p.getProductId().equals(productId)){
-				return Collections.singletonList(p.getDiscountInformation());
-			}
-		}
-		throw new NoDiscountFoundException();
-	}
-	*/
+	
 	public CustomerResource verifyCustomer(String uuid) throws UserNotFoundException{
 		CustomerResource cust = custService.findByUuid(uuid);
 		if(cust == null){
