@@ -1,0 +1,22 @@
+[
+	{
+		"discountId" : "10-percent-off",
+		"type" : "PERCENT",
+		"description" : "Reduce the purchase price by 10%",
+		"amount" : "10"
+	},
+	{
+		"discountId" : "5-dollars-off",
+		"type" : "AMOUNT",
+		"description" : "Reduce the purchase price by $5",
+		"amount" : "5",
+		"productId" : "sku-1234567890"
+	},
+	{
+		"discountId" : "50-percent-off",
+		"type" : "PERCENT",
+		"description" : "Reduce the purchase price by 50%",
+		"amount" : "50",
+		"productId" : "sku-1234567890"
+	}
+]

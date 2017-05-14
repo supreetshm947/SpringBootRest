@@ -1,0 +1,9 @@
+[
+	{
+		"productId" : "sku-1234567890",
+		"description" : "12 month subscription to 'Horse and Hound'",
+		"originalPrice" : "100",
+		"finalPrice" : "50",
+		"discountId" : "50-percent-off"
+	}	
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"uuid" : "qa-test-user",
+		"name" : "Test User",
+		"address" : "1 Main St",
+		"discountIds" : ["10-percent-off", "5-dollars-off"],
+		"productIds" : ["sku-1234567890"]
+	}	
+]

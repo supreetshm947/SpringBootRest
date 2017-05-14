@@ -1,0 +1,10 @@
+[
+	{
+		"code" : "ER0001",
+		"msg" : "No Discounts found/ProductId is invalid"
+	},
+	{
+		"code" : "ER0002",
+		"msg" : "User Doesn't Exist"
+	}
+]	
