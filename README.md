@@ -16,3 +16,13 @@ Retrieve Discounts with productId filter: http://localhost:8080/rest/v1/users/qa
 Retrieve Discounts - error - user not found: http://localhost:8080/rest/v1/users/bad-user/discounts
 
 Request user: http://localhost:8080/rest/v1/users/{uuid}/discounts
+
+Required tools: 
+Maven, JDK, PostMan
+
+Steps:
+<ul>
+	<li>Fork it</li>
+	<li>Run mvn install</li>
+	<li>Run generated jar using java -jar {jar location}</li>
+</ul>
