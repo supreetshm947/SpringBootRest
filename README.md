@@ -15,4 +15,4 @@ Retrieve Discounts with productId filter: http://localhost:8080/rest/v1/users/qa
 
 Retrieve Discounts - error - user not found: http://localhost:8080/rest/v1/users/bad-user/discounts
 
-Request user: http://localhost:8080/rest/v1/users/<uuid>/discounts
+Request user: http://localhost:8080/rest/v1/users/{uuid}/discounts
