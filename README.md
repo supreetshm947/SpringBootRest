@@ -22,7 +22,6 @@ Maven, JDK, PostMan
 
 Steps:
 <ul>
-	<li>Fork it</li>
 	<li>Run mvn install</li>
 	<li>Run generated jar using java -jar {jar location}</li>
 </ul>
